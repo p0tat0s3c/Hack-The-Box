@@ -71,4 +71,4 @@ And there is our root flag!
 
 Well just out of interest we could see the cron jobs being run is basically every script inside the scripts directory
 
-![rootshell](rootshell.png)
+![afterwards](afterwards.png)
